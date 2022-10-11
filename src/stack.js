@@ -17,8 +17,8 @@ class Stack {
     this.storage = [];
   }
 
-  push(element) {
-    this.storage.push(element);
+  push(value) {
+    this.storage.push(value);
   }
 
   pop() {
