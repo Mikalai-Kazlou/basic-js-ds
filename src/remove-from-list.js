@@ -28,7 +28,7 @@ function removeKFromList(listIn, k) {
   let listOut = null;
   let values = [];
 
-  while (current !== null) {
+  while (current) {
     if (current.value !== k) {
       values.push(current.value);
     }
